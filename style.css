@@ -12,9 +12,9 @@
 
 .holder{
     border: 1px black solid;
-    height: 180px;
-    width: 100px;
-    display: flexbox;
+    max-width: 150px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .third{
