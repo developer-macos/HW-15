@@ -1,0 +1,36 @@
+.first{
+    background-color: pink;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.second{
+    background-color: blue;
+        font-size: 30px;
+        border-radius: 5px;
+}
+
+.holder{
+    border: 1px black solid;
+    height: 180px;
+    width: 100px;
+    display: flexbox;
+}
+
+.third{
+    background-color: purple;
+            font-size: 30px;
+        border-radius: 5px;
+}
+
+.fourth{
+background-color: green;
+            font-size: 30px;
+        border-radius: 5px;
+}
+
+.fifth{
+            font-size: 30px;
+        border-radius: 5px;
+        background-color: yellow;
+}
