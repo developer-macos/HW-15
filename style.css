@@ -1,36 +1,46 @@
 .first{
     background-color: pink;
-    font-size: 30px;
-    border-radius: 5px;
+    order: 1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 150px;
+    height: 20px;
 }
-
 .second{
     background-color: blue;
-        font-size: 30px;
-        border-radius: 5px;
+            order: 4;
+                width: 150px;
+    height: 20px;
 }
 
 .holder{
     border: 1px black solid;
-    max-width: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     display: flex;
     flex-wrap: wrap;
+    max-width: 2000px;
 }
 
 .third{
     background-color: purple;
-            font-size: 30px;
-        border-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        order: 3;
+            width: 150px;
+    height: 20px;
 }
 
 .fourth{
 background-color: green;
-            font-size: 30px;
-        border-radius: 5px;
+        order: 5;
+            width: 150px;
+    height: 20px;
 }
 
 .fifth{
-            font-size: 30px;
-        border-radius: 5px;
         background-color: yellow;
+        order: 2;
+            width: 150px;
+    height: 20px;
 }
