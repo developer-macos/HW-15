@@ -44,3 +44,29 @@ background-color: green;
             width: 150px;
     height: 20px;
 }
+
+.before-test::after{
+    content: "" ;
+    width: 125px;
+    height: 25px;
+    background-size: contain;
+
+}
+
+.before-test::after{
+    display: none;
+    background-image: url(./telegram-logo.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+.before-test:hover::after{
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.list-for-test li{
+    list-style: none;
+    font-size: 25px;
+}
