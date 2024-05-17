@@ -1,3 +1,9 @@
+body{
+    background-image: url(/cerberus-featured-1.png);
+    background-repeat: no-repeat;
+    width: 1800px;
+}
+
 .first{
     background-color: pink;
     order: 1;
@@ -8,8 +14,8 @@
 }
 .second{
     background-color: blue;
-            order: 4;
-                width: 150px;
+    order: 4;
+    width: 150px;
     height: 20px;
 }
 
@@ -24,24 +30,24 @@
 
 .third{
     background-color: purple;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        order: 3;
-            width: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    order: 3;
+    width: 150px;
     height: 20px;
 }
 
 .fourth{
-background-color: green;
-        order: 5;
-            width: 150px;
+    background-color: green;
+    order: 5;
+    width: 150px;
     height: 20px;
 }
 
 .fifth{
-        background-color: yellow;
-        order: 2;
-            width: 150px;
+    background-color: yellow;
+    order: 2;
+    width: 150px;
     height: 20px;
 }
 
@@ -50,7 +56,7 @@ background-color: green;
     width: 125px;
     height: 25px;
     background-size: contain;
-
+    
 }
 
 .before-test::after{
@@ -61,12 +67,36 @@ background-color: green;
 }
 
 .before-test:hover::after{
-  display: inline-flex;
-  align-items: center;
-  margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
 }
 
 .list-for-test li{
     list-style: none;
     font-size: 25px;
+}
+
+.background{
+    background-image: url(/Roblox\ Transparent\ Background\ png\ anime\ download.png);
+    width: 1800px;
+    height: 1200px;
+    background-repeat: no-repeat;
+}
+
+.fortnite{
+    color: purple;
+    font-size: 25px;
+justify-content: center;
+    display: flex;
+}
+
+.pleasant-park{
+    background-image: url(/HD-wallpaper-fortnite-blue-logo-blue-neon-lights-creative-blue-abstract-background-fortnite-logo-online-games-fortnite.jpg);
+    width: 800px;
+    height: 500px;
+}
+
+.hh{
+    color: white;
 }
